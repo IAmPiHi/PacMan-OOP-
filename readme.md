@@ -46,3 +46,11 @@ Instead of pre-loaded textures, the Pac-Man character is drawn using a Triangle 
 ```bash
 g++ -c main.cpp PacMan.cpp Ghost.cpp
 g++ main.o PacMan.o Ghost.o -o pacman-game -lsfml-graphics -lsfml-window -lsfml-system
+```
+or you can also use 
+```bash
+make
+```
+That makefile is for Windows so if you using other OS you have to rewrite it.
+Also even if you're using Windows you still have to modify the SFML path.
+
