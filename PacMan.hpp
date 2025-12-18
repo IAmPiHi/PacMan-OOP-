@@ -16,7 +16,7 @@ public:
     sf::Color currentColor = sf::Color::Yellow;
 
     // --- 修改：平滑動畫所需的變數 ---
-    float currentMouthHalfAngle; // 當前嘴巴張開的一半角度 (0.0 ~ 35.0)
+    float currentMouthHalfAngle; // 當前嘴巴張開的一半角度 (0.0 ~ 40.0)
     bool isMouthOpening;         // true = 正在張開, false = 正在閉合
     // ----------------------------
 
@@ -27,5 +27,6 @@ public:
     void updateGeometry();
     void reset(sf::Vector2i startPos);
 };
+
 
 #endif // PACMAN_HPP
