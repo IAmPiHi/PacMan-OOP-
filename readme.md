@@ -13,6 +13,13 @@
 
 This project demonstrates the application of core Computer Science concepts within a real-time game engine environment. Unlike standard sprite-based games, this implementation relies on **mathematical geometry** for rendering and **graph theory** for enemy artificial intelligence.
 
+## Game Rules
+
+1.  **Evade Ghosts:** Avoid being caught by the pursuing ghosts.
+2.  **Power Up:** A magic star appears randomly every **12 seconds**.
+3.  **Turn the Tables:** Collect the star to become invincible and hunt down the ghosts!
+4.  **Watch Out:** If a ghost eats the star first, you will be **frozen for 3 seconds**!
+
 ## ✨ Key Features
 
 * **Smart Ghost AI:** Ghosts are not random; they utilize the **A* (A-Star) Pathfinding Algorithm** to calculate the shortest route to the player in real-time.
