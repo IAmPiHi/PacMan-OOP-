@@ -15,7 +15,7 @@ This project demonstrates the application of core Computer Science concepts with
 ## ✨ Key Features
 
 * **Smart Ghost AI:** Ghosts are not random; they utilize the **A* (A-Star) Pathfinding Algorithm** to calculate the shortest route to the player in real-time.
-* **Procedural Animation:** Pac-Man is rendered using dynamic `sf::VertexArray` geometry. The mouth animation is calculated using continuous angular interpolation (0° to 35°), creating a smooth "breathing" motion independent of movement speed.
+* **Procedural Animation:** Pac-Man is rendered using dynamic `sf::VertexArray` geometry. The mouth animation is calculated using continuous angular interpolation (0° to 40°), creating a smooth "breathing" motion independent of movement speed.
 * **Grid-Based Collision:** Precise collision detection system ensuring valid movement within the maze layout.
 * **Classic Gameplay Loop:** Includes pellet collection, score tracking, and win/loss states.
 
