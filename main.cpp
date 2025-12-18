@@ -60,7 +60,7 @@ int main() {
     window.setFramerateLimit(FPS);
 
     sf::Font font;
-    // 請確保與執行檔同目錄下有 arial.ttf，或者修改為系統字型路徑
+    // arial.ttf為字形檔案
     if (!font.openFromFile("arial.ttf")) {
         std::cerr << "Warning: arial.ttf not found." << std::endl;
     }
@@ -343,4 +343,5 @@ int main() {
     }
 
     return 0;
+
 }
