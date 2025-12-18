@@ -51,6 +51,6 @@ or you can also use
 ```bash
 make
 ```
-That makefile is for Windows so if you using other OS you have to rewrite it.
+That makefile is for Windows so if you using other OS you have to rewrite it.<br>
 Also even if you're using Windows you still have to modify the SFML path.
 
