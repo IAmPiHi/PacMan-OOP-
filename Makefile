@@ -2,7 +2,7 @@
 SHELL = cmd.exe
 
 # --- 設定 SFML 路徑 ---
-SFML_PATH = E:/Cenv/SFML-3.0.0
+SFML_PATH = "set your path"
 
 CXX = g++
 
@@ -31,5 +31,6 @@ $(TARGET): $(OBJS)
 clean:
 	-del /F /Q *.o
 	-del /F /Q $(TARGET)
+
 
 .PHONY: all clean
