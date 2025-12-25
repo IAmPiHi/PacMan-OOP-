@@ -49,7 +49,7 @@ Instead of pre-loaded textures, the Pac-Man character is drawn using a Triangle 
 ### Prerequisites
 * C++ Compiler (supporting C++17 standard)
 * SFML Library (version 2.5.1 or higher)
-* And modify "Makefile" make sure it has the right info
+* And modify "Makefile", make sure it has the right info
 
 ### Compilation Example (G++)
 ```bash
