@@ -63,6 +63,6 @@ make
 That makefile is for Windows so if you're using other OS you have to rewrite it.<br>
 Also even if you're using Windows you still have to modify the SFML path.
 
-###Download exe
+### Download exe
 https://drive.google.com/file/d/1pMmlxRLyxNuCfgij8o6DSSD00KFSkIGK/view?pli=1
 
