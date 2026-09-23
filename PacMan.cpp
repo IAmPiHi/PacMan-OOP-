@@ -49,8 +49,8 @@ void PacMan::update(const std::vector<std::string>& map) {
 
 // --- 修改：平滑動畫邏輯 ---
 void PacMan::updateAnimation() {
-    // 設定變化的速度，這裡設為 1.0 表示每一幀變 1 度
-    // 你的 FPS 是 30，所以從 0 到 35 度大約需要 1秒多一點 (35幀)
+    // 設定變化的速度， 1.0 表示每一幀變 1 度
+    //  FPS 是 30，所以從 0 到 35 度大約需要 1秒多一點 (35幀)
     float speed = 6.0f; 
 
     if (isMouthOpening) {
